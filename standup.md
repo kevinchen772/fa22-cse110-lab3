@@ -1,9 +1,9 @@
 # **Standup Meeting Notes Template**
 
 ## Meeting Details
-Date:\
-Time:\
-Location:\ 
+Date:<br />
+Time:<br />
+Location:<br />
 Meeting Lead:
 
 ## Attendance
