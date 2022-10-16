@@ -8,10 +8,10 @@ Meeting Lead:
 
 ## Attendance
 Attendees: 
--[ ] 
--[ ]
--[ ]
--[ ]
+- [ ] 
+- [ ]
+- [ ]
+- [ ]
 
 ## ITEMS & DISCUSSION
 1. OPENING
