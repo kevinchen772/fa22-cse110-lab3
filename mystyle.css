@@ -70,7 +70,7 @@ a[href="#Meeting"] {
     grid-template-columns: 2fr 2fr;
     grid-column-gap: 1em;
     grid-row-gap: 1em;
-    justify-items: stretch;
+    justify-items: center;
     justify-content: space-between;
 }
 
