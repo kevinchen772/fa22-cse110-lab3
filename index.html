@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="mystyle.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +10,9 @@
 </head>
 <body>
     <header>
-        <div>Quick Link</div>
-        <nav>
-            <ul>
+        <div id="Quick">Quick Link</div>
+        <nav class="box">
+            <ul class="lists">
                 <li><a href="#Meeting">Meeting Details</a></li>
                 <li><a href="#Attendance">Attendance List</a></li>
                 <li><a href="#Agenda">Agenda</a></li>
@@ -26,66 +27,99 @@
     </header>
 
     <main>
-        <h1>Binary Search Tree Project Meeting</h1>
+        <div class="bigbox">
+            <div class="boxcontainer">
+                <div>
+                    <h1 style="display:block;color: blue;background-color: yellow;border: 1px solid black;">Binary Search Tree Project Meeting</h1>
+                
+                    <img src="https://simplesnippets.tech/wp-content/uploads/2020/10/binary-search-tree-featured-image.jpg" 
+                    alt="BST Picture"
+                    width="400"
+                    >
+                </div>
+            </div>
 
-        <img src="https://simplesnippets.tech/wp-content/uploads/2020/10/binary-search-tree-featured-image.jpg" 
-        alt="BST Picture"
-        width="400"
-        >
+            <div class="flexcontainer">
+                <div class="flexcontainer1"> 
+                    <h3 id="Meeting">Meeting Details</h3>
+                    
+                    <li>
+                        <b>Pay Attention</b>
+                        <ul>
+                            <li><b>Goal</b>: Discuss the implementation of Binary Search Tree using C++</li>
+                            <li><b>Location</b>: Center Hall</li>
+                            <li><b>Date</b>: Wednesday 10/05/2022</li>
+                            <li><b>Time</b>: 1:00pm - 2:00pm</li>
+                        </ul>
+                    </li>
+                </div>
+                
+                <div class="flexcontainer2">
+                    <h3 id="Attendance">Attendance List</h3>
+                    <ol>
+                        <li><input type="checkbox">Xiaoyu Chen</li>
+                        <li><input type="checkbox">Li Chen</li>
+                        <li><input type="checkbox">Alex Wang</li>
+                        <li><input type="checkbox">Alex Wu</li>
+                        <li><input type="checkbox">Francis Leo</li>
+                        <li><input type="checkbox">Kathy Ma</li>
+                    </ol>
+                </div>
+            </div>
 
-        <h3 id="Meeting">Meeting Details</h3>
-        <ul>
-            <li><b>Goal</b>: Discuss the implementation of Binary Search Tree using C++</li>
-            <li><b>Location</b>: Center Hall</li>
-            <li><b>Date</b>: Wednesday 10/05/2022</li>
-            <li><b>Time</b>: 1:00pm - 2:00pm</li>
-        </ul>
+            <div class="gridcontainer">
+                <div class="gridcontainer1">
+                    <h3 id="Agenda" class="ag">Agenda</h3>
+                    <p>
+                        Go over <span>the</span> details of <strong>BST</strong> Tree. Discussing which struture to use for the implementation. 
+                        Each group member should be assigned with some tasks. Setting up the time for the next meeting.
+                    </p>
+                </div>
 
-        <h3 id="Attendance">Attendance List</h3>
-        <ol>
-            <li><input type="checkbox">Xiaoyu Chen</li>
-            <li><input type="checkbox">Li Chen</li>
-            <li><input type="checkbox">Alex Wang</li>
-            <li><input type="checkbox">Alex Wu</li>
-            <li><input type="checkbox">Francis Leo</li>
-            <li><input type="checkbox">Kathy Ma</li>
-        </ol>
+                <div class="gridcontainer2">
+                    <h3 id="Old">Old Buisiness</h3>
+                    <p>
+                        New members that just joined the team should be added to the <strong>Slack</strong> Channel.
+                    </p>
+                </div>
 
-        <h3 id="Agenda">Agenda</h3>
-        <p>
-            Go over <span>the</span> details of <strong>BST</strong> Tree. Discussing which struture to use for the implementation. 
-            Each group member should be assigned with some tasks. Setting up the time for the next meeting.
-        </p>
+                <div class="gridcontainer3">
+                    <h3 id="New">New Buisiness</h3>
+                    <p>
+                        BST implementation - it should be down by the end of Sunday. Each group member needs to upload their files when they are done.
+                    </p>
+                </div>
 
-        <h3 id="Old">Old Buisiness</h3>
-        <p>
-            New members that just joined the team should be added to the <strong>Slack</strong> Channel.
-        </p>
+                <div class="gridcontainer4">
+                    <h3 id="Pictures">Pictures</h3>
+                    <img src="https://media.istockphoto.com/vectors/businessman-and-woman-discussing-vector-id845574052?k=20&m=845574052&s=612x612&w=0&h=iC5a31Dc-TM6OQe7TZoNgvmqV3UtwJYSbUR4B1OOJmU="
+                     alt="Meeting Drawings" width="400" height="200">
+                </div>
+                
+                <div class="gridcontainer5"> 
+                    <h3 id="Audio">Audio</h3>
+                    <audio controls>
+                        <source src="fakevideo.mp4">
+                    </audio>
+                </div>
 
-        <h3 id="New">New Buisiness</h3>
-        <p>
-            BST implementation - it should be down by the end of Sunday. Each group member needs to upload their files when they are done.
-        </p>
+                <div class="gridcontainer6"> 
+                    <h3 id="Video">Video</h3>
+                    <video width="300" height="300" controls>
+                        <source src="fakevideo.mp4">
+                    </video>
+                </div>
 
-        <h3 id="Pictures">Pictures</h3>
-        <img src="https://media.istockphoto.com/vectors/businessman-and-woman-discussing-vector-id845574052?k=20&m=845574052&s=612x612&w=0&h=iC5a31Dc-TM6OQe7TZoNgvmqV3UtwJYSbUR4B1OOJmU=" alt="Meeting Drawings">
+                <div class="gridcontainer7">
+                    <h3 id="Question">Question and Concerns</h3>
+                    <p>
+                        Who is going to be next team lead?<br>
+                        Next time everyone needs to be on time.
+                    </p>
+                </div>
+            </div>
 
-        <h3 id="Audio">Audio</h3>
-        <audio controls>
-            <source src="fakevideo.mp4">
-        </audio>
-
-        <h3 id="Video">Video</h3>
-        <video width="700" height="700" controls>
-            <source src="fakevideo.mp4">
-        </video>
-
-        <h3 id="Question">Question and Concerns</h3>
-        <p>
-            Who is going to be next team lead?<br>
-            Next time everyone needs to be on time.
-        </p>
-
+        </div>
     </main>
     <hr>
     <footer>
@@ -98,7 +132,7 @@
 
         <details>
             <summary>Xiaoyu's Wechat ID</summary>
-            BbKaven
+            <p>BbKaven</p>
         </details>
         <div>&copy; Xiaoyu Chen @ UCSD</div>
     </footer>

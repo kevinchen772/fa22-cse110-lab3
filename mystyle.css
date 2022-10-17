@@ -1,0 +1,131 @@
+@font-face {/* font files to download */
+    font-family: "Dancing";
+    src: url("DancingScript-VariableFont_wght.ttf");
+}
+
+html {
+    font-family: "Dancing";
+    font-size: 13px;
+}
+
+/* Set background color and color to quick link*/
+#Quick {
+    display: block;
+    color: #39a8a8c4;
+    background-color: rgba(113, 138, 175, 0.2);
+    text-align: center;
+    height: auto;
+    font-size: x-large;
+    margin: auto;
+}
+
+.bigbox { /* Set border for main content*/
+    border: 5px solid #202424c4;
+    margin-top: .5cm;
+    margin-bottom: 1cm;
+    margin-right: .5cm;
+    margin-left: .5cm;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#Meeting { /*id selector*/
+    display: table;
+    color: rgb(182, 34, 34);
+    font-size: 0.43cm;
+}
+
+.box {
+    text-align: center;
+    padding: 5px 10px 10px 10px;
+}
+
+.lists { /*class selector*/
+    display: inline-block;
+    text-align: center;
+    width: 10rem;
+    height: 1.5in;
+    border-style: dotted;
+    border-color: rgb(21, 169, 206);
+    border-width: 2px;
+    border-radius: 10%;
+    position: relative;
+}
+
+h1 { /*element selector*/
+    max-width: 50ex;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    position: static;
+}
+
+a[href="#Meeting"] {
+    color: red;
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    justify-items: stretch;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+.flexcontainer {
+    display: flex;
+    justify-content: center;
+    column-gap: 300px;
+    flex-direction: row-reverse;
+    align-self: flex-end;
+}
+
+.boxcontainer {
+    display: grid;
+    justify-content: center;
+}  
+
+h1,h3 {
+    text-decoration: underline;
+}
+
+button:hover {
+    color:blue;
+}
+
+a:active {
+   color:orange; 
+}
+
+* {
+   max-width: 10000px;
+   min-width: none;
+}
+
+li li {
+    list-style-type: circle;
+}
+
+details > summary {
+    background-color: whitesmoke;
+}
+
+summary ~ p {
+    color: pink;
+}
+
+b + ul {
+    font-weight: bold;
+}
+
+h3.ag {
+    color: peru;
+}
